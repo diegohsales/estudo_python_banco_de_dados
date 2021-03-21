@@ -20,3 +20,12 @@ pip install virtualenv
 
 #Instalando o Flask e Flake8
 pip install flask flake8
+
+Ou
+
+python -m venv venvSQL
+cd venvSQL\Scripts
+activate.ps1 ou .\Activate.ps1
+
+Caso precise habilitar politica de Segurança
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine(Politica de Seguraça Windows pelo PowerShell)
